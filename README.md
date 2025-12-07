@@ -52,13 +52,13 @@ python main.py -t "2025-12-31 23:59:59"
 ### 自定义分辨率
 
 ```bash
-python main.py -w 1920 -H 1080
+python main.py -W 1920 -H 1080
 ```
 
 ### 完整示例
 
 ```bash
-python main.py -o ~/Pictures/solar_wallpaper.png -t "2025-12-07 12:00:00" -w 2560 -H 1440
+python main.py -o ~/Pictures/solar_wallpaper.png -t "2025-12-07 12:00:00" -W 2560 -H 1440
 ```
 
 ## 定时更新壁纸

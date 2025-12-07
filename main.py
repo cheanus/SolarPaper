@@ -21,7 +21,7 @@ def main():
         "--time",
         help="指定时间 (格式: YYYY-MM-DD HH:MM:SS)，不指定则使用当前时间",
     )
-    parser.add_argument("-w", "--width", type=int, help="图像宽度 (默认: 3840)")
+    parser.add_argument("-W", "--width", type=int, help="图像宽度 (默认: 3840)")
     parser.add_argument("-H", "--height", type=int, help="图像高度 (默认: 2160)")
 
     args = parser.parse_args()
